@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 2px solid black;
+}
+
+html{
+ font-size: 62.5$;
+}
+
+body{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    background-color: #fffafa;
+    color: #4f4f4f;
+    font-family: 'Pt Sans', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: nunito, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem; 
+}
+
+a{
+    color: #4f4f4f;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 2s;
+}
+a:hover{
+    color: #fcb130;
+}
+
+i{
+    font-size: 5rem;
+}
+
+section,footer{
+    padding: 4% 0;
+}
+
+/* Header Styles */
+nav.main{
+    padding: 2% 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
+}
+.logo{
+    width: 8%;
+    text-align: center;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Top section styles */
+#top{
+    height:95vh;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  Farm Section Styles */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 20%;
+    padding: 4%;
+    border: 3px solid black;
+    background-color: #fff;
+    text-align: center;
+    margin: 5% 0;
+}
+
+/* Footer styles */
+footer{
+    background-color: #fcb130;
+    color: #FFF;
+}
+
+footer a{
+    background-color: #fcb130;
+    color: #fff;
+    transition: 2s;
+}
+
+footer a:hover{
+    color: #4f4f4f;
+}
